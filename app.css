@@ -1,4 +1,13 @@
 body {
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Merienda', cursive;
+    background-color: rgb(76, 0, 255);
 }
+
+.background-image {
+    position: relative;
+    background-image: url('imgs/space.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Adjust the height as needed */
+  }
