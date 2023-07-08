@@ -28,8 +28,8 @@ body {
 
 .cover-container {
   max-width: 42em;
+  
 }
-
 
 /*
  * Header
@@ -93,7 +93,7 @@ body {
   position: relative;
   z-index: 2;
   height: 2.75rem;
-  overflow-y: hidden;
+  overflow-y: auto;
 }
 
 .nav-scroller .nav {
