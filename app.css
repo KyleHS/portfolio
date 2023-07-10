@@ -24,6 +24,7 @@ body {
   font-family: 'Merienda', cursive;
   background-image: url('imgs/space2.jpg');
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .cover-container {
@@ -125,4 +126,8 @@ body {
 }
 .bd-mode-toggle {
   z-index: 1500;
+}
+
+#project-button:hover {
+  color:#5a23c8;
 }
