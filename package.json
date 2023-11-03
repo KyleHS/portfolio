@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "<<<<<<< HEAD\r Currently in an unfinished state. Will be workigng on this over time as I develop more skills and refresh on certain topics.\r =======\r Currently in an unfinished state. Will be working on this over time as I develop more skills and refresh on certain topics.\r >>>>>>> b3cdabd505246e3e81e6eba61f2645a5555bbd75",
+  "main": "buffer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KyleHS/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KyleHS/portfolio/issues"
+  },
+  "homepage": "https://github.com/KyleHS/portfolio#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
