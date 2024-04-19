@@ -17,14 +17,19 @@ body {
   background-color: #3901a8;
 }
 
+.navbar span {
+  color: white;
+}
+
 .navbar a {
   color: white;
 }
 
-.navbar.scrolled {
-  background-color: #0099ff; /* Change to the desired background color */
-
+.navbar button {
+  color: white;
 }
+
+
 
 .cover-container {
   max-width: 100%;
@@ -33,6 +38,12 @@ body {
   background-image: url('imgs/space2.jpg');
   background-size: cover;
   background-attachment: fixed;
+}
+
+main img {
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 150px;
 }
 
 
@@ -46,10 +57,16 @@ section div {
   max-width: 75%;
 }
 
+
 #about {
   background-color: rgb(255, 255, 255);
   color: rgb(59, 57, 57);
 }
+
+#sk {
+  text-align: left;
+}
+
 
 footer {
   text-align: left;
