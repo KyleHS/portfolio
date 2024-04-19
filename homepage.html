@@ -15,7 +15,7 @@
 
   <!--Navbar-->
 
-  <nav class="navbar navbar-expand-lg sticky-top">
+  <nav class="navbar navbar-expand-lg sticky-top navbar-transparent">
     <div class="container-fluid">
       <div class="navbar-brand">
         <span>Kyle Musegades</span>
@@ -29,7 +29,7 @@
             <a class="nav-link" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">-About Me-</a>
+            <a class="nav-link" href="about.html">-About Me-</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">-Skills-</a>
@@ -57,43 +57,24 @@
   </main>
 </div>
 
-<!--About Me-->
 
-<section id="about"class="container-fluid about justify-content-center align-items-center mx-auto pt-5">
-  <div class="text-center">
-    <h2>About Me</h2>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo ipsa commodi temporibus quis, eaque omnis nisi fugiat ipsum ducimus architecto deserunt reprehenderit! Possimus sed dignissimos aliquid libero nobis, ullam nihil.
-    Minima rerum, doloremque dignissimos aliquam ullam omnis enim voluptas ut non incidunt nobis doloribus aliquid aspernatur magnam eligendi? Voluptates mollitia a sed voluptas, similique eligendi maxime aut sit itaque ex.
-    Delectus voluptates eligendi iure excepturi nihil saepe ipsum facere, pariatur ratione placeat reprehenderit enim, suscipit labore perferendis repellat, veritatis blanditiis at alias libero. Perspiciatis voluptatibus quis fugit, voluptatem odio molestiae?
-    </p>
-  </div>
-
-<!--Skills-->
-
-<section id="skills"class="container-fluid about justify-content-center mx-auto pt-5">
-    <div class="">
-      <h2>Skills</h2>
-      <ul>HTML</ul>
-      <ul>CSS</ul>
-      <ul>JavaScript</ul>
-      <ul>MySQL</ul>
-      <ul>Node.JS</ul>
-      <ul>Java</ul>
-      <ul>Python</ul>
-      <ul>C++</ul>
-      <ul>Express.JS</ul>
-      <ul>Bootstrap</ul>
-      <ul>Git</ul>
-    </div>
-
-<!--Footer-->
-
-<footer class="container-fluid about justify-content-center align-items-center mx-auto pt-5">
-  <h3>Made with Bootstrap 5</h3>
-  
-</footer>
 
 <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    //changes navbar to a solid color as the user scrolls down
+    window.addEventListener('scroll', function() {
+  var navbar = document.getElementById('navbar');
+  if (window.scrollY > 0) { // Changed the condition to start toggling when scrollY > 0
+    navbar.classList.remove('navbar-transparent');
+    navbar.classList.add('navbar-solid');
+  } else {
+    navbar.classList.remove('navbar-solid');
+    navbar.classList.add('navbar-transparent');
+  }
+  });
+
+</script>
 
 
 </body>  

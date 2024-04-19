@@ -1,0 +1,78 @@
+/* Custom styles */
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #580ce6; /* Dark purple background color */
+    color: #ffffff; /* White text color */
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: transparent !important;
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+.navbar-brand span {
+    color: #ffffff; /* White color for the brand name */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff; /* White color for nav links */
+    margin-right: 20px; /* Spacing between nav links */
+}
+
+/* About section styles */
+#about {
+    padding: 100px 0; /* Padding for top and bottom */
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 36px; /* Heading font size */
+    margin-bottom: 30px; /* Spacing below heading */
+}
+
+#about p {
+    font-size: 18px; /* Paragraph font size */
+    line-height: 1.6; /* Line height for better readability */
+}
+
+/* Skills section styles */
+#skills {
+    padding: 100px 0; /* Padding for top and bottom */
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 36px; /* Heading font size */
+    margin-bottom: 30px; /* Spacing below heading */
+}
+
+#skills ul {
+    list-style: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+#skills ul li {
+    font-size: 20px; /* Skills font size */
+    margin-bottom: 10px; /* Spacing between skills */
+}
+
+/* Footer styles */
+footer {
+    position: fixed; /* Fixed positioning */
+    bottom: 0; /* Align to the bottom of the viewport */
+    width: 100%; /* Full width */
+    padding: 50px 0; /* Padding for top and bottom */
+    text-align: center;
+    background-color: #2d149b; /* Darker purple background color for footer */
+    z-index: 100; /* Ensure footer appears above other content */
+}
+
+footer h3 {
+    font-size: 18px; /* Footer text font size */
+    color: #ffffff; /* White color for footer text */
+}
