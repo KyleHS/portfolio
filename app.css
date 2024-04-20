@@ -20,6 +20,7 @@
 
 .navbar-brand span {
   color: #ffffff; /* White color for the brand name */
+  margin-left: 20px;
 }
 
 .navbar-nav .nav-link {
