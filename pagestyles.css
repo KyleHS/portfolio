@@ -1,5 +1,13 @@
-/* Custom styles */
+ /* Custom styles */
+ main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 body {
+    height: 100%;
     font-family: 'Josefin Sans', sans-serif;
     margin: 0;
     padding: 0;
@@ -24,44 +32,6 @@ body {
     margin-right: 20px; /* Spacing between nav links */
 }
 
-/* About section styles */
-#about {
-    padding: 100px 0; /* Padding for top and bottom */
-    text-align: center;
-}
-
-#about h2 {
-    font-size: 36px; /* Heading font size */
-    margin-bottom: 30px; /* Spacing below heading */
-}
-
-#about p {
-    font-size: 18px; /* Paragraph font size */
-    line-height: 1.6; /* Line height for better readability */
-}
-
-/* Skills section styles */
-#skills {
-    padding: 100px 0; /* Padding for top and bottom */
-    text-align: center;
-}
-
-#skills h2 {
-    font-size: 36px; /* Heading font size */
-    margin-bottom: 30px; /* Spacing below heading */
-}
-
-#skills ul {
-    list-style: none; /* Remove bullet points */
-    margin: 0;
-    padding: 0;
-}
-
-#skills ul li {
-    font-size: 20px; /* Skills font size */
-    margin-bottom: 10px; /* Spacing between skills */
-}
-
 /* Footer styles */
 footer {
     position: fixed; /* Fixed positioning */
@@ -77,3 +47,10 @@ footer h3 {
     font-size: 18px; /* Footer text font size */
     color: #ffffff; /* White color for footer text */
 }
+
+.custom-carousel-container {
+    width: 40%;
+    height: 100%;
+    margin: auto;
+}
+
