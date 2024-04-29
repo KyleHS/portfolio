@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/KyleHS/portfolio#readme",
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "http-server": "^14.1.1"
   }
 }

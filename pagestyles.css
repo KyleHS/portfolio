@@ -48,9 +48,15 @@ footer h3 {
     color: #ffffff; /* White color for footer text */
 }
 
-.custom-carousel-container {
-    width: 40%;
-    height: 100%;
-    margin: auto;
+.c-item {
+height: 480px;
 }
 
+.c-img {
+height: 100%;
+object-fit: cover;
+}
+
+ .carousel-item.c-item .carousel-caption.custcap p {
+ color: white;
+}
