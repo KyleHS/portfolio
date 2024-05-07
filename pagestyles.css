@@ -15,6 +15,14 @@ body {
     color: #ffffff; /* White text color */
 }
 
+h1 {
+    text-decoration: bold;
+    text-shadow: 4px 4px 4px black;
+}
+
+h2 {
+    margin-top: 1em;
+}
 /* Navbar styles */
 .navbar {
     background-color: transparent !important;
@@ -57,6 +65,20 @@ height: 100%;
 object-fit: cover;
 }
 
- .carousel-item.c-item .carousel-caption.custcap p {
- color: white;
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.9); /* Solid black background color with 70% opacity */
+    padding: 10px; /* Add padding around the text areas */
+    border-radius: 10px;
+}
+.carousel-caption h5, 
+.carousel-caption p {
+    color: white;
+    text-decoration: bold;
+    -webkit-text-stroke-width: .2px; /* Set the width of the stroke */
+    -webkit-text-stroke-color: black; /* Set the color of the stroke */
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for better contrast */
+}
+/*Sizes the Github logo*/
+a.github {
+    width: 10%;
 }
