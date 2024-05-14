@@ -82,3 +82,21 @@ object-fit: cover;
 a.github {
     width: 10%;
 }
+
+.textalt {
+    max-width: 100%;
+}
+
+.textalt h1 {
+    font-size: 48px;
+    margin-bottom: 5%;
+    text-decoration: dashed;
+}
+
+.textalt p {
+    font-size: 24px;
+    margin-top: 4rem;
+    margin-left: 12.5%;
+    max-width: 50%;
+    
+}
