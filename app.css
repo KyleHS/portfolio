@@ -57,26 +57,31 @@ main {
 main img {
   border: 2px solid white;
   border-radius: 50%;
-  width: 150px;
+  width: 200px;
+
 }
 
 /* Adjust font sizes */
 h1 {
-  font-size: 36px; /* Adjust heading font size */
-}
-
-h2 {
-  font-size: 24px; /* Adjust heading font size */
-}
-
-h3 {
-  font-size: 18px; /* Adjust heading font size */
+  font-size: 80px; /* Adjust heading font size */
 }
 
 p {
-  font-size: 16px; /* Adjust paragraph font size */
+  font-size: 60px; /* Adjust paragraph font size */
+  font-weight: bolder;
+  margin-bottom: 40px;
+
 }
 
 ul {
   font-size: 16px; /* Adjust list font size */
+}
+
+.project {
+  background-color: white;
+}
+
+.project a:hover {
+  background-color: rgb(15, 1, 145);
+  color: white;
 }

@@ -23,6 +23,8 @@ h1 {
 
 h2 {
     margin-top: 1em;
+    text-decoration: bold;
+    text-shadow: 4px 4px 4px black;
 }
 /* Navbar styles */
 .navbar {
@@ -81,7 +83,7 @@ object-fit: cover;
 }
 /*Sizes the Github logo*/
 a.github {
-    width: 10%;
+    width: 5%;
 }
 
 .textalt {
@@ -90,14 +92,19 @@ a.github {
 
 .textalt h1 {
     font-size: 48px;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     text-decoration: dashed;
 }
 
+
 .textalt p {
     font-size: 24px;
-    margin-top: 4rem;
+    margin-top: 2rem;
     margin-left: 12.5%;
     max-width: 50%;
     
+}
+
+.skills li {
+    margin-left: 20px;
 }
