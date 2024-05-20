@@ -108,3 +108,11 @@ a.github {
 .skills li {
     margin-left: 20px;
 }
+
+.socials {
+    text-decoration: none;
+    padding-top: .5%;
+    font-weight: bolder;
+    color:#9364ec;
+
+}
